@@ -14,12 +14,12 @@ namespace MyCSharpP
             Console.WriteLine("press any key to exit.");
             //Console.ReadKey();
 
-            //Student s1 = new Student();
-            //s1.visitBymethod();
-            //s1.visitByattribute();
+            Student s1 = new Student();
+            s1.visitBymethod();
+            s1.visitByattribute();
 
 
-         
+
             //test
         }
     }
