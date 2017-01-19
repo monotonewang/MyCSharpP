@@ -23,7 +23,7 @@ namespace MyCSharpP
             Console.WriteLine(student2.name);
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
-
+            //testc
         }
     }
 }
