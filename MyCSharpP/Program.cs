@@ -14,18 +14,12 @@ namespace MyCSharpP
             Console.WriteLine("press any key to exit.");
             //Console.ReadKey();
 
-            //关于类里面的属性问题。
-            //调用有参的构造方法
-            Student student1 = new Student("jimu",6);
-            Console.WriteLine("student1 name={0}age={1}", student1.name, student1.age);
-            Console.WriteLine("Press any key to exit.");
-            Student stu2 = student1;
-            stu2.name = "molly";
-            stu2.age = 19;
-            Console.WriteLine("stu2 name={0}age={1}", stu2.name, stu2.age);
-            Console.WriteLine("student1 name={0}age={1}", student1.name, student1.age);
-            Console.ReadKey();
+            //Student s1 = new Student();
+            //s1.visitBymethod();
+            //s1.visitByattribute();
 
+
+         
             //test
         }
     }
