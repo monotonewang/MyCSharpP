@@ -63,6 +63,7 @@
     <Compile Include="Basics\BasicUtil.cs" />
     <Compile Include="Basics\Person.cs" />
     <Compile Include="Class\Class.cs" />
+    <Compile Include="Class\Point.cs" />
     <Compile Include="Class\Teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Class\Student.cs" />
