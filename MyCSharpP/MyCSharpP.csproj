@@ -59,10 +59,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Basic\Basic.cs" />
-    <Compile Include="Basic\BasicUtil.cs" />
-    <Compile Include="Basic\Person.cs" />
+    <Compile Include="Basics\Basic.cs" />
+    <Compile Include="Basics\BasicUtil.cs" />
+    <Compile Include="Basics\Person.cs" />
     <Compile Include="Class\Class.cs" />
+    <Compile Include="Class\Teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Class\Student.cs" />
   </ItemGroup>
