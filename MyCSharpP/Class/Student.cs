@@ -9,6 +9,12 @@ namespace MyCSharpP
     //继承是通过使用“派生”来实现的，而派生意味着类是使用“基类”声明的，它的数据和行为从基类继承。 通过在派生的类名后面追加冒号和基类名称，可以指定基类
     class Student : Person
     {
+        public const int value = 10;//成员常量必须初始化
+         
+        public int width;//实例字段
+
+        public static int height;//静态字段
+
         public string Name { get; set; }
 
         public int Age { get; set; }
