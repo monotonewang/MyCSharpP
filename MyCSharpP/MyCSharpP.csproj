@@ -63,8 +63,14 @@
     <Compile Include="Basics\BasicUtil.cs" />
     <Compile Include="Basics\Person.cs" />
     <Compile Include="Class\Class.cs" />
+    <Compile Include="Class\Partial.cs" />
     <Compile Include="Class\Point.cs" />
     <Compile Include="Class\Teacher.cs" />
+    <Compile Include="Extends\AbstractClass.cs" />
+    <Compile Include="Extends\AbstractDerived.cs" />
+    <Compile Include="Extends\VirtualClass.cs" />
+    <Compile Include="Extends\VirtualDerived.cs" />
+    <Compile Include="Extends\Extends.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Class\Student.cs" />
   </ItemGroup>

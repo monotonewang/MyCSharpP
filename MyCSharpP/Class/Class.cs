@@ -6,37 +6,43 @@ using System.Threading.Tasks;
 
 namespace MyCSharpP.Class {
     class Class {
-        static void Main(string[] args) {
+        //static void Main(string[] args) {
 
-            Student s1 = new Student();
-            s1.width = 20;//实例字段的访问方式
-            Student.height = 10;//静态字段的访问方式
-            int i = Student.value;//成员常量的访问方式
-            //s1.visitBymethod();
-            //s1.visitByattribute();
+        //    Student s1 = new Student();
+        //    s1.width = 20;//实例字段的访问方式
+        //    Student.height = 10;//静态字段的访问方式
+        //    int i = Student.value;//成员常量的访问方式
+        //    //s1.visitBymethod();
+        //    //s1.visitByattribute();
 
-            //第一种访问属性的方法
-            Teacher t1 = new Teacher("张三");
-            //Teacher t1 = new Teacher();
-            //t1.name = "lisi";
-            //Console.WriteLine("1.t1.name={0}", t1.name);
-            //第二种通过其他方法访问属性
-            //t1.setName("wangwu");
-            //Console.WriteLine("2.t1.name={0}", t1.getName());
+        //    //属性的访问方法
+        //    //第一种访问属性的方法
+        //    Teacher t1 = new Teacher("张三");
+        //    //Teacher t1 = new Teacher();
+        //    //t1.name = "lisi";
+        //    //Console.WriteLine("1.t1.name={0}", t1.name);
+        //    //第二种通过其他方法访问属性
+        //    //t1.setName("wangwu");
+        //    //Console.WriteLine("2.t1.name={0}", t1.getName());
 
+        //    //静态属性
+        //    Console.WriteLine("age={0}", Teacher.myAge);
 
-            //静态属性
-            Console.WriteLine("age={0}", Teacher.myAge);
+        //    Teacher.myAge = 10;
+        //    Console.WriteLine("age={0}", Teacher.myAge);
+        //    //调用类内部方法
+        //    t1.printValue();
+        //    Console.ReadKey();
 
-            Teacher.myAge = 10;
-            Console.WriteLine("age={0}", Teacher.myAge);
+        //    //通过索引的操作属性
+        //    //Point point = new Point();
+        //    //point[0] = "12";
+        //    //point[1] = "14";
 
-            t1.printValue();
-            Console.ReadKey();
-
-            Point point = new Point();
-            point[0] = "12";
-            point[1] = "14";
-        }
+        //    //分布类
+        //    Partial p = new Partial();
+        //    p.method1();
+        //    p.method2();
+        //}
     }
 }
