@@ -69,7 +69,7 @@ namespace MyCSharpP.Basic {
             }
         }
         //C# 3.0 开始支持 显式的类型名
-        static void VarTest() {
+        public static void VarTest() {
             var total = 15;
             {
                 var var1 = 18;
@@ -99,14 +99,14 @@ namespace MyCSharpP.Basic {
         }
 
         //交换两个数的位置
-        static void changeNum(ref int i, ref int j) {
+        public static void changeNum(ref int i, ref int j) {
             int temp = j;
             j = i;
             i = temp;
 
         }
         //获取最大数
-        static void getMaxValue(int i, int j) {
+        public static void getMaxValue(int i, int j) {
             int max = 0;
             max = i > j ? i : j;
             Console.WriteLine("max={0}", max);
@@ -114,14 +114,14 @@ namespace MyCSharpP.Basic {
             return;
         }
         //获取string的长度
-        static void getStringLength() {
+        public static void getStringLength() {
             Console.WriteLine("请输入一个字符串，计算字符串的长度");
             string msg = Console.ReadLine();
             Console.WriteLine("字符串长度={0}" + msg.Length);
             Console.ReadKey();
         }
         //获取0到i的和
-        static void getSum(int i) {
+        public static void getSum(int i) {
             int sum = 0;
             for (int j = 0; j < i; j++) {
                 sum = sum + j;
