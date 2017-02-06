@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//继承特性
 namespace MyCSharpP.Extends {
     class Extends {
         //static void Main(String[] args) {
