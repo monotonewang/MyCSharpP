@@ -26,19 +26,7 @@ namespace MyCSharpP.Basics {
         //    //BasicUtil.DiGui(10);
         //    //BasicUtil.testConst();
         //    //BasicUtil.testStatic();
-        //    //运算符重载
-        //    LimitedInt li1 = new LimitedInt();
-        //    LimitedInt li2 = new LimitedInt();
-        //    LimitedInt li3 = new LimitedInt();
-        //    li1.TheValue = 10; li2.TheValue = 26;
-        //    Console.WriteLine("li:{0},li2：{1}", li1.TheValue, li2.TheValue);
-        //    li3 -= li1;
-        //    Console.WriteLine("-{0},={1}", li1.TheValue, li3.TheValue);
-        //    li3 = li2 - li1;
-        //    Console.WriteLine("-{0},={1}={2}", li2.TheValue, li1.TheValue, li3.TheValue);
-        //    li3 = li1 - li2;
-        //    Console.WriteLine("-{0},={1}={2}", li1.TheValue, li2.TheValue, li3.TheValue);
-        //    Console.ReadKey();
+       
         //}
 
     }

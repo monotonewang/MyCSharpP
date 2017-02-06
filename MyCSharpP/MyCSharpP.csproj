@@ -61,7 +61,9 @@
   <ItemGroup>
     <Compile Include="Basics\Basic.cs" />
     <Compile Include="Basics\BasicUtil.cs" />
-    <Compile Include="Basics\LimitedInt.cs" />
+    <Compile Include="Basics\OperatorTest\LimitedInt.cs" />
+    <Compile Include="Basics\OperatorTest\OperatorTest.cs" />
+    <Compile Include="Basics\OperatorTest\Person.cs" />
     <Compile Include="Basics\Person.cs" />
     <Compile Include="Class\Class.cs" />
     <Compile Include="Class\Partial.cs" />
