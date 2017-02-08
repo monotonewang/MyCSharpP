@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Basics\Basic.cs" />
     <Compile Include="Basics\BasicUtil.cs" />
+    <Compile Include="Basics\DelegateTest\DelegateTest.cs" />
     <Compile Include="Basics\OperatorTest\LimitedInt.cs" />
     <Compile Include="Basics\OperatorTest\OperatorTest.cs" />
     <Compile Include="Basics\OperatorTest\Person.cs" />

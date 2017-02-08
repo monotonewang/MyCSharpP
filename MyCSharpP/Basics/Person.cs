@@ -12,6 +12,7 @@ namespace MyCSharpP {
         public int _age;
 
         Delegate width;//委托类型
+        
 
         //public int age {
         //    // Return the value stored in a field.  
